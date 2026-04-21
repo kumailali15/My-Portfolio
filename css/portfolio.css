@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(2, 2, 46);
+    color: white;
+}
+
+nav {
+    align-items: center;
+    background-color: rgb(2, 2, 73);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#role {
+    font-weight: bold;
+    color: rgb(66, 116, 133);
+    transition: 0.3s ease;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li {
+    font-size: large;
+    margin-left: 25px;
+    list-style: none;
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li a:hover {
+    color: rgb(148, 192, 233);
+}
+
+.firstsection {
+    justify-content: space-around;
+    display: flex;
+}
+
+.leftsection {
+    font-size: larger;
+    width: 35%;
+    margin-top: 150px;
+}
+
+.leftsection>div>h1,
+h2,
+p {
+    margin-top: 10px;
+}
+
+.rightsection {
+    width: 35%;
+}
+
+.rightsection img {
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+}
+
+.color {
+    color: rgb(66, 116, 133);
+}
+
+hr {
+    border: 0;
+    background-color: rgb(2, 2, 73);
+    height: 4px;
+    margin: 34px 75px;
+}
+
+.secondsection {
+    margin: auto 65px;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.gray {
+    font-size: 1.08rem;
+    color: gray;
+}
+
+.box {
+    display: flex;
+}
+
+.vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px;
+}
+
+.vertical image {
+    width: 100%;
+}
+
+footer {
+    background-color: rgb(2, 2, 73);
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
